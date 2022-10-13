@@ -27,3 +27,81 @@ body {
     grid-column: 2 / -1;
     grid-row: 2 / -1;
 }
+
+/* Sidebar */
+
+.sidebar-header {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+ul {
+    padding: 0;
+    display: grid;
+    gap: 15px;
+}
+
+.first-list {
+    margin-bottom: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+
+}
+
+.firstrow {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.userinfo {
+    display: grid;
+    margin-right: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.searchbar {
+    justify-self: flex-start;
+    margin-left: 10px;
+}
+
+.secondrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcomeUser {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+    justify-items: flex-start;
+}
+
+.pictureBig {
+    justify-self: center;
+}
+
+.uploadbuttons {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
