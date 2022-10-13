@@ -105,3 +105,71 @@ li a {
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* Main Content */
+
+.card {
+    border: 2px solid white;
+    background-color: grey;
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 5px;
+}
+
+h5 {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.projects {
+    display: grid;
+    padding: 0 10px 0 10px;;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.announcements, .trending {
+    width: 200px;
+    border: 2px solid white;
+    background-color: grey;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+
+}
+
+.border {
+    border-top: 2px solid white;
+}
+
+.main-content {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-between;
+}
+
+.trendingContainer {
+    grid-column: 2 / -1;
+}
+
+.biggerConatiner {
+
+}
